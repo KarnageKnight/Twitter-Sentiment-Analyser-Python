@@ -1,4 +1,4 @@
-import thread
+from threading import Thread
 import time
 import urllib
 import twurl
@@ -12,12 +12,19 @@ def NLTK(js, i, count):
 	tweet = json.dumps(js['statuses'][i]['text'], indent=4)
 	data2 = urllib.urlencode({'text': str(tweet)})  #encode tweet in proper format for API call
 	u = urllib.urlopen('http://text-processing.com/api/sentiment/', data2) #perform NLTK API call
-	polarity_file.write(u.read()) #write NLTK results to file
-	polarity_file.write('\n') #new line 
+	polarityData=u.read() #get polarity
+	if(polarityData['label']=='pos'):
+		polarity_file.write('positive ',polarityData['probability']['pos']) #write NLTK positive results to file
+	elif(polarityData['label']=='neg'):
+		polarity_file.write('negative ',polarityData['probability']['neg']) #write NLTK negative results to file
+	elif(polarityData['label']=='neutral'):
+		polarity_file.write('neutral ',polarityData['probability']['neutral']) #write NLTK neutral results to file
+	polarity_file.write('\n') #new line
+
     
 
 
-   
+threadArray = [] #all the threads will be kept in this array, to be joined later
 TWITTER_URL = 'https://api.twitter.com/1.1/search/tweets.json?'
 word = raw_input('Enter word:')
 word_no_retweet = word + ' -RT' #filter out no retweet
@@ -40,6 +47,7 @@ for x in range(0,3):   #range defines number of pages displayed
 		next_results_url_params = js['search_metadata']['next_results'] #extract parameter next_results from search_metadata
 		next_max_id = next_results_url_params.split('max_id=')[1].split('&')[0] #extract max_id of next page from next_results
 	except:
+		print 'couldn\'t get max ID for next page'
         # No more next pages
 		break
 
@@ -51,12 +59,16 @@ for x in range(0,3):   #range defines number of pages displayed
    		f.write(json.dumps(js['statuses'][i]['text'], indent=4))
    		f.write('\n')
 
-
 	for i in range(len(js['statuses'])):    #loop through all the tweets on a page
+		t = Thread(target=NLTK, args=(js, i, count,))
+		threadArray.append(t)
+		t.start()
+	print 'NLTK running'
+	for threadSingle in threadArray:    #join all threads before ending program
 		try:
-			thread.start_new_thread( NLTK, (js, i, count) )
+			threadSingle.join()
 		except:
-			print "Error: unable to start thread"
+			print "Error: unable to join thread"
 
 f.close()
    
