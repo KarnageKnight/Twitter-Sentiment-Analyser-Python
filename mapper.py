@@ -14,15 +14,16 @@ def NLTK(js, i, count):
 	u = urllib.urlopen('http://text-processing.com/api/sentiment/', data2) #perform NLTK API call
 	polarityData=json.loads(u.read()) #get polarity
 	if(polarityData['label']=='pos'):
-		polarity_file.write('positive ')
+		polarity_file.write('positive\t')
 		polarity_file.write(json.dumps(polarityData['probability']['pos'])) #write NLTK positive results to file
+		polarity_file.write('\n') #new line
 	elif(polarityData['label']=='neg'):
-		polarity_file.write('negative ')
+		polarity_file.write('negative\t')
 		polarity_file.write(json.dumps(polarityData['probability']['neg'])) #write NLTK negative results to file
-	elif(polarityData['label']=='neutral'):
-		polarity_file.write('neutral ')
-		polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
-	polarity_file.write('\n') #new line
+		polarity_file.write('\n') #new line
+	# elif(polarityData['label']=='neutral'):
+	# 	polarity_file.write('neutral\t')
+	# 	polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
 
     
 
