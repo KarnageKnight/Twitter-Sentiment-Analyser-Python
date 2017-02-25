@@ -24,7 +24,7 @@ def NLTK(js, i, count):
 		polarity_file.write(json.dumps(polarityData['probability']['neg'])) #write NLTK negative results to file
 		polarity_file.write('\n') #new line
 	else:
-		polarity_file.write('neutraly\t')
+		polarity_file.write('neutral \t')
 		polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
 		polarity_file.write('\n') #new line
     
