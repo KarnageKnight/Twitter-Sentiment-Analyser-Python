@@ -12,9 +12,9 @@ f = open("/users/karnageknight/Desktop/majorProject/Data/search_result.txt","a+"
 count = 0
 for x in range(0,3):   #range defines number of pages displayed
 	if x==0:
-		url = twurl.augment(TWITTER_URL, {'q': word_no_retweet, 'count': '100', 'lang': 'en', 'return_type': 'recent'} ) #for first page
+		url = twurl.augment(TWITTER_URL, {'q': word_no_retweet, 'count': '100', 'lang': 'en', 'include_entities': 'false', 'return_type': 'popular'} ) #for first page
 	else:
-		url = twurl.augment(TWITTER_URL,{'q' : word_no_retweet, 'count': '100', 'lang': 'en', 'include_entities': 'true', 'since_id' : next_max_id, 'return_type': 'recent'}) #for subsequent tweets using their max_id
+		url = twurl.augment(TWITTER_URL,{'q' : word_no_retweet, 'count': '100', 'lang': 'en', 'include_entities': 'false', 'max_id' : next_max_id, 'return_type': 'popular'}) #for subsequent tweets using their max_id
 	#print 'Retrieving', url
 	#print word_no_retweet
 	print ''
@@ -24,14 +24,17 @@ for x in range(0,3):   #range defines number of pages displayed
     
 	js = json.loads(data) #read data from a file type format and convert it to json format
 	# print json.dumps(js,indent = 4)
-	next_max_id = str(json.dumps(js['search_metadata']['max_id']-1)) #it is the next_max_id for the next result
-
 	print 'Remaining', headers['x-rate-limit-remaining']
 	print 'loop'
-
 	for i in range(len(js['statuses'])):
 		#print json.dumps(js, indent=4)
-   		f.write(json.dumps(js['statuses'][i]['text'], indent=4))
+		next_max_id = str(json.dumps(js['statuses'][i]['id'])) #it is the next_max_id for the next result
+   		f.write(json.dumps(js['statuses'][i]['text']))
+   		f.write('\t')
+   		if (json.dumps(js['statuses'][i]['user']['location'])=="\"\""):
+   			f.write('None')
+   		else:
+   			f.write(json.dumps(js['statuses'][i]['user']['location']))
    		f.write('\n')
-
+   	print next_max_id
 f.close()
