@@ -6,6 +6,7 @@ import json
 import sys
 import geojson
 import time
+import os
 
 def NLTK(line, area):
 	polarity_file = open("/Users/karnageknight/Desktop/majorProject/Data/polarity_file.txt","a+")  #create and open a file handle to store NLTK results 
@@ -16,27 +17,26 @@ def NLTK(line, area):
 
 	#writing the mapper file for the reducer input
 	if(polarityData['label']=='pos'):
-		polarity_file.write('positive\t')
-		polarity_file.write(json.dumps(polarityData['probability']['pos'])) #write NLTK positive results to file
-		polarity_file.write('\t')
 		polarity_file.write(country)
+		polarity_file.write('\tpositive\t')
+		polarity_file.write(json.dumps(polarityData['probability']['pos'])) #write NLTK positive results to file
 		polarity_file.write('\n') #new line
 		print 'positive\t%s' % (json.dumps(polarityData['probability']['pos']))
 	elif(polarityData['label']=='neg'):
-		polarity_file.write('negative\t')
-		polarity_file.write(json.dumps(polarityData['probability']['neg'])) #write NLTK negative results to file
-		polarity_file.write('\t')
 		polarity_file.write(country)
+		polarity_file.write('\tnegative\t')
+		polarity_file.write(json.dumps(polarityData['probability']['neg'])) #write NLTK negative results to file
 		polarity_file.write('\n') #new line
 		print 'negative\t%s' % (json.dumps(polarityData['probability']['neg']))
 	else:
-		polarity_file.write('neutral \t')
-		polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
-		polarity_file.write('\t')
 		polarity_file.write(country)
+		polarity_file.write('\tneutral \t')
+		polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
 		polarity_file.write('\n') #new line
 		print 'neutral\t%s' % (json.dumps(polarityData['probability']['neutral']))
 
+if os.path.exists("~/Desktop/majorProject/Data/polarity_file.txt"):
+    os.remove("~/Desktop/majorProject/Data/polarity_file.txt")
 threadArray = [] #all the threads will be kept in this array, to be joined later
 
 # for line in sys.stdin:    #loop through all the tweets on a page
@@ -44,7 +44,7 @@ threadArray = [] #all the threads will be kept in this array, to be joined later
 # 	t = Thread(target=NLTK, args=(line, ))
 # 	threadArray.append(t)
 # 	t.start()
-
+sleep_count=0
 with open("/users/karnageknight/Desktop/majorProject/Data/search_result.txt","r+") as f:
     for line in f:
     	line = line.strip()
@@ -52,7 +52,10 @@ with open("/users/karnageknight/Desktop/majorProject/Data/search_result.txt","r+
     	t = Thread(target=NLTK, args=(getPolarity[0], getPolarity[1],))
     	threadArray.append(t)
     	t.start()
-    	time.sleep(0.2)
+    	sleep_count+=1
+    	if sleep_count%10==0:
+    		time.sleep(2)
+    	
 
 for threadSingle in threadArray:    #join all threads before ending program
 	try:

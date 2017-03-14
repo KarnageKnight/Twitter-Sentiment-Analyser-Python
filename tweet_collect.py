@@ -4,7 +4,10 @@ import urllib
 import twurl
 import json
 import sys
+import os
 
+if os.path.exists("~/Desktop/majorProject/Data/search_result.txt"):
+    os.remove("~/Desktop/majorProject/Data/search_result.txt")
 TWITTER_URL = 'https://api.twitter.com/1.1/search/tweets.json?'
 word = raw_input('Enter word:')
 word_no_retweet = word + ' -RT' #filter out no retweet

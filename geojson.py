@@ -1,5 +1,6 @@
 import urllib
 import json
+import time
 
 def countryFinder(address):
     serviceurl = 'http://maps.googleapis.com/maps/api/geocode/json?'
@@ -14,6 +15,9 @@ def countryFinder(address):
     if 'status' not in js1 or js1['status'] != 'OK':
         print 'Failure To Retrieve'
         location='NA'
+    elif js1['status']=='OVER_QUERY_LIMIT':
+        time.sleep(0.5)
+        location = countryFinder(address)
     else:
         for i in range(len(js1['results'][0]['address_components'])):
             if js1['results'][0]['address_components'][i]['types'][0]=="country":
