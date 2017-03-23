@@ -115,18 +115,4 @@ if current_country == country:
 	final_file.write(str(country_number))
 	final_file.write('\n')
 
-
-if total_count > 0:
-	final_file.write('Total positive:\t')
-	final_file.write(str(total_count))
-	final_file.write('\tTotal Tweets:\t')
-	final_file.write(str(total_tweets))
-	print 'Total positive:\t%s' % (total_count)
-else:
-	final_file.write('Total negative:\t')
-	final_file.write(str(total_count*-1))
-	final_file.write('\tTotal Tweets:\t')
-	final_file.write(str(total_tweets))
-	print 'Total negative:\t%s' % (total_count*-1)
-
 final_file.close()

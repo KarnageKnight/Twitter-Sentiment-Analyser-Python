@@ -21,20 +21,19 @@ def NLTK(line, area):
 		polarity_file.write('\tpositive\t')
 		polarity_file.write(json.dumps(polarityData['probability']['pos'])) #write NLTK positive results to file
 		polarity_file.write('\n') #new line
-		print 'positive\t%s' % (json.dumps(polarityData['probability']['pos']))
+		#print '%s\tpositive\t%s' % (country,json.dumps(polarityData['probability']['pos']))
 	elif(polarityData['label']=='neg'):
 		polarity_file.write(country)
 		polarity_file.write('\tnegative\t')
 		polarity_file.write(json.dumps(polarityData['probability']['neg'])) #write NLTK negative results to file
 		polarity_file.write('\n') #new line
-		print 'negative\t%s' % (json.dumps(polarityData['probability']['neg']))
+		#print '%s\tpositive\t%s' % (country,json.dumps(polarityData['probability']['neg']))
 	else:
 		polarity_file.write(country)
 		polarity_file.write('\tneutral \t')
 		polarity_file.write(json.dumps(polarityData['probability']['neutral'])) #write NLTK neutral results to file
 		polarity_file.write('\n') #new line
-		print 'neutral\t%s' % (json.dumps(polarityData['probability']['neutral']))
-
+		#print '%s\tpositive\t%s' % (country,json.dumps(polarityData['probability']['neutral']))
 if os.path.exists("~/Desktop/majorProject/Data/polarity_file.txt"):
     os.remove("~/Desktop/majorProject/Data/polarity_file.txt")
 threadArray = [] #all the threads will be kept in this array, to be joined later

@@ -1,229 +1,218 @@
-NA	positive	0.591921414427502
-United States	negative	0.6461114772867352
-Italy	neutral 	0.5215928309446534
-Italy	neutral 	0.6946490850197358
-India	neutral 	0.6892282718818574
-Italy	positive	0.523784442832052
-Italy	neutral 	0.8885997226405588
-United States	positive	0.5399142050744281
-United States	neutral 	0.7831913087311211
-Italy	negative	0.545132099971003
-United States	neutral 	0.8530992277393633
-Italy	negative	0.630468033495394
-United States	neutral 	0.662132666616138
-Italy	negative	0.5396562825555893
-United Kingdom	negative	0.5697615337298152
-Lebanon	neutral 	0.57659754474781
-United States	positive	0.5790720244204133
-Italy	positive	0.5702349117654323
-India	negative	0.5697615337298152
-United States	negative	0.656682417980214
-United States	negative	0.5487821892916448
-United States	neutral 	0.5797178015240596
-Italy	positive	0.602385397148934
-Italy	negative	0.5796654615385233
-United States	negative	0.5850174646864923
-United States	negative	0.5999741712735689
-United States	negative	0.8573879248756492
-Italy	negative	0.5447486154138578
-Laos	neutral 	0.6025551721834411
-Italy	negative	0.5548990243816093
-Italy	positive	0.5192827123869982
-United States	negative	0.5548011317559268
-Italy	positive	0.5449537615135135
-Italy	negative	0.5172367816073908
-Italy	negative	0.703134048143558
-United States	positive	0.5449537615135135
-NA	negative	0.6600227742015683
-Nepal	negative	0.6488469587626269
-United States	negative	0.5983785196796618
-United States	positive	0.6680959280132233
-United States	neutral 	0.7953449419586857
-United States	negative	0.5252672547562863
-Italy	neutral 	0.5097931285687664
-United Kingdom	neutral 	0.6581036299149932
-Italy	positive	0.5174058308400604
-France	neutral 	0.6917785120254761
-France	negative	0.5545055598858222
-NA	negative	0.6976855199253094
-Italy	neutral 	0.7644216681578945
-United States	positive	0.5219074505845742
-United States	positive	0.5449537615135135
-United States	negative	0.5487821892916449
-Netherlands	negative	0.713269388121905
-France	positive	0.5449537615135135
-United States	positive	0.5449537615135135
-Italy	negative	0.6741825858445741
-United States	neutral 	0.5377070656349878
-Netherlands	neutral 	0.5372284652668026
-Netherlands	neutral 	0.6866091971836736
-United States	negative	0.6111882913452703
-NA	positive	0.5449537615135135
-Italy	positive	0.5449537615135135
-United States	positive	0.5449537615135135
-Italy	neutral 	0.5872430424849646
-Italy	positive	0.5411025284803066
-Canada	neutral 	0.5339235267439285
-Netherlands	positive	0.5220244964167411
-Netherlands	neutral 	0.5339346408116653
-Netherlands	negative	0.5188145868934491
-Netherlands	neutral 	0.8635020914766055
-United States	neutral 	0.8158175386723311
-Netherlands	neutral 	0.7669483519289696
-Italy	negative	0.6074714698498351
-Italy	negative	0.6763800282505117
-Netherlands	neutral 	0.7669483519289696
-Italy	negative	0.634064487689573
-United States	neutral 	0.6907427382299843
-Netherlands	neutral 	0.7556713333410672
-Netherlands	neutral 	0.8751294411400504
-United Kingdom	positive	0.6392941387804763
-Italy	positive	0.5644672812779842
-Italy	negative	0.5825759106177532
-Italy	neutral 	0.7604578303638245
-United States	negative	0.5807909578664612
-Italy	negative	0.5768748924955277
-United Kingdom	neutral 	0.7580093375088127
-United Kingdom	neutral 	0.5990350766864451
-Germany	negative	0.5457821654106567
-Argentina	positive	0.6127943103960138
-Canada	positive	0.7101123687971207
-Italy	negative	0.6079905966943322
-Italy	negative	0.624051301921615
-Italy	negative	0.7879827921269762
-Italy	neutral 	0.5535577676503584
-Italy	negative	0.57265219585384
-Italy	negative	0.5893377809683361
-United States	neutral 	0.6988552493268255
-United States	negative	0.5863279319081557
-United States	negative	0.5807909578664612
-United States	negative	0.6079905966943322
-Italy	negative	0.5487821892916448
-Lebanon	neutral 	0.6833775696214955
-Italy	negative	0.6079905966943322
-United Kingdom	negative	0.5353998292839044
-Italy	negative	0.6260093442308963
-NA	negative	0.5005802294727226
-Italy	neutral 	0.506678637894177
-United States	neutral 	0.6112862879306271
-United Kingdom	positive	0.63500607811906
-United States	neutral 	0.503302287815514
-United States	neutral 	0.7112289025643563
-United Kingdom	positive	0.5538565391382924
-NA	negative	0.5327665231791501
-United States	neutral 	0.5215928309446534
-United States	negative	0.5896412636176186
-Italy	negative	0.5985305247432187
-United States	negative	0.6412844854944859
-United States	negative	0.553829715068261
-United States	neutral 	0.6606571158497497
-Italy	negative	0.6853715624648264
-France	neutral 	0.6619776259462866
-United States	positive	0.6471241615838338
-Italy	neutral 	0.615540213022537
 NA	neutral 	0.5131223818839284
-Italy	neutral 	0.5761697022524164
-Italy	negative	0.5548990243816093
-Italy	negative	0.5196062117200261
-United States	positive	0.5839343803848296
-NA	negative	0.529260637047815
-Italy	neutral 	0.7035357025201393
-United States	neutral 	0.796302691731254
-United States	negative	0.5370545391798234
-Italy	neutral 	0.9206905434307563
-Italy	neutral 	0.8386595957808223
-Lebanon	negative	0.57338598981053
+Italy	neutral 	0.6594705325593321
 Italy	negative	0.5039559074679503
-United Kingdom	negative	0.6056728868783849
-Ghana	neutral 	0.5985619298007154
-United States	negative	0.6247152913571489
-United Kingdom	negative	0.6056728868783856
-United States	positive	0.5222433516356675
-Italy	neutral 	0.6671927932859432
-United States	negative	0.7039638450838628
-United States	negative	0.6961289623308866
-Netherlands	negative	0.5523894659640317
-United States	negative	0.6961289623308866
-Italy	positive	0.739750153378061
-Canada	positive	0.5851186671072257
-United Kingdom	neutral 	0.7323178558676041
-United States	positive	0.7909010225962227
-Italy	neutral 	0.8987946478929927
-NA	neutral 	0.7887809003685446
-United States	positive	0.5145241468297603
-Italy	neutral 	0.5215928309446534
-NA	positive	0.6077330558928954
-India	neutral 	0.7633709748676564
-Italy	neutral 	0.5162195373448191
-India	neutral 	0.9734563977539109
-Italy	negative	0.6250418044293065
-United States	negative	0.7628574268416176
-Italy	neutral 	0.6025551721834411
-United States	negative	0.7275274445126864
+Italy	positive	0.6031265040861765
+Italy	neutral 	0.615540213022537
 Italy	negative	0.5196062117200261
-NA	neutral 	0.5324841384978728
-United Kingdom	neutral 	0.7289537034762311
-Italy	neutral 	0.5992084019356835
-United States	neutral 	0.7193081591544604
-United States	neutral 	0.7926100682087579
-Italy	positive	0.5050268684903342
-NA	positive	0.547942982252233
-Italy	neutral 	0.6025551721834411
-United Kingdom	neutral 	0.6025551721834411
+United States	negative	0.7745359530085074
+Honduras	positive	0.7252651772109178
+Netherlands	positive	0.6438273873101792
+NA	positive	0.5509538613620836
+Italy	neutral 	0.5295047539913155
+Italy	negative	0.6566285982844209
+Italy	positive	0.5838726492961361
+Italy	negative	0.8075364423113046
+United States	negative	0.6371385643611529
+United States	negative	0.710678518895503
+NA	positive	0.6279154632612282
+United States	neutral 	0.8854223861724719
+NA	positive	0.6048902571218056
+NA	neutral 	0.6638324812889521
+Italy	neutral 	0.5669421059688172
+Italy	neutral 	0.5240631170148178
+Italy	negative	0.6627219836971139
+Egypt	negative	0.5783265229520484
+United Kingdom	negative	0.6933902392857438
+United Kingdom	positive	0.5559221547064732
+United States	positive	0.5930316542432729
+United Kingdom	negative	0.6939201197442822
+Liberia	positive	0.5368700359045713
+Netherlands	negative	0.7737445925184693
+Italy	negative	0.5070788344875464
+Italy	neutral 	0.6167079451880874
+Italy	negative	0.6686417168263794
+Italy	neutral 	0.5295047539913155
+Jamaica	neutral 	0.5622826342478384
+United Kingdom	negative	0.702478585014477
+United States	neutral 	0.5125586706187485
+United States	neutral 	0.5240631170148187
+NA	positive	0.5228805064347609
+NA	negative	0.5331173284837767
+United States	neutral 	0.6061213348606652
+U.S. Virgin Islands	negative	0.5754392864318192
+NA	negative	0.8391465205843661
+United States	positive	0.6029810096724068
+United States	neutral 	0.565939427786251
+United States	neutral 	0.5950890614040548
+United States	neutral 	0.5240631170148187
+NA	positive	0.6029810096724068
+NA	neutral 	0.565939427786251
+United States	neutral 	0.5240631170148178
+NA	negative	0.5192190560034928
+Italy	negative	0.5196062117200261
+Italy	neutral 	0.6935791697169131
+NA	positive	0.6219462163930312
 Italy	positive	0.525929434205004
-United Kingdom	negative	0.615058535611844
-NA	neutral 	0.5950890614040548
+India	neutral 	0.7231748835548167
+United States	negative	0.6477950708949243
+Australia	positive	0.628392293871183
+NA	neutral 	0.6534129972092161
+United States	negative	0.6618352159087613
+Italy	positive	0.5487222514153577
+Italy	positive	0.5394486470067581
+United Kingdom	negative	0.6079419120630551
+Italy	negative	0.5850480464905257
+United States	negative	0.5408888087539432
+United States	negative	0.5461967271353605
+United States	negative	0.5475916383586612
+United States	positive	0.6787591262534244
+NA	negative	0.5685231432871258
+United States	negative	0.7845694321889438
+United States	negative	0.594392437619472
+Italy	neutral 	0.8427016911508263
+Italy	negative	0.6289964494275243
+Italy	positive	0.6249238067485964
+United States	negative	0.6078247948066064
+NA	negative	0.6706059459343043
+United States	positive	0.6344689088542118
+United States	negative	0.7714122658157836
+United States	negative	0.7675147408420742
+NA	neutral 	0.8349010324866205
+Italy	negative	0.8208926748768147
+Italy	negative	0.5307842417672017
+Italy	positive	0.549365528281466
+United Kingdom	negative	0.6877292216240778
+United Kingdom	neutral 	0.631839698359017
+United Kingdom	negative	0.6212757516375251
+United States	neutral 	0.5944220457111253
+United States	neutral 	0.5944220457111253
+United States	positive	0.5727943074359951
+Malaysia	neutral 	0.6042988809710781
+Italy	positive	0.5230877892278352
+Italy	negative	0.5192190560034928
+Italy	neutral 	0.7416974109196416
+Italy	negative	0.6499472331995926
+Italy	neutral 	0.7416974109196416
+Bulgaria	negative	0.5262194278164881
+Netherlands	negative	0.802097206470463
+NA	positive	0.8111400120848399
+United States	positive	0.5663580823015704
+NA	negative	0.5670074059275165
+Japan	negative	0.5413456479705437
+Indonesia	neutral 	0.7073644625376351
+Indonesia	neutral 	0.7073644625376351
+India	positive	0.6371685553745778
+United States	negative	0.7131851617170655
+United Kingdom	neutral 	0.5124318648130064
+United States	positive	0.6279154632612282
+United Kingdom	negative	0.519240127370326
+India	neutral 	0.5180594652012265
+United States	negative	0.6258816309862332
+Italy	neutral 	0.6274581052534777
+Italy	negative	0.5710539105780075
+Italy	neutral 	0.5601412084493479
+United Kingdom	negative	0.8263672231874022
+Greece	positive	0.5324696864185499
+United Kingdom	neutral 	0.7245674123847591
+United States	positive	0.5324696864185499
+United States	positive	0.58063335058149
+United Kingdom	negative	0.6148217056662176
+United States	neutral 	0.7075913050975643
+Italy	neutral 	0.7353005998453108
+Italy	negative	0.5182990778028599
+Italy	positive	0.5124390222278208
+Italy	neutral 	0.5131223818839284
+United States	neutral 	0.5324841384978728
+NA	positive	0.5062724655962789
+NA	positive	0.5062724655962789
+United States	negative	0.829674667858034
+NA	positive	0.7203404237496591
+NA	positive	0.5728572469880334
+Italy	positive	0.6182743753996145
+Italy	negative	0.6567870489462612
+Italy	positive	0.6077919753958788
+Italy	negative	0.5766345003655429
+Italy	neutral 	0.8569113590270648
+United States	negative	0.641859771126526
+Canada	positive	0.5649552671277036
+United States	positive	0.6438273873101792
+Egypt	positive	0.6438273873101792
+United States	positive	0.5343198118500196
+Italy	neutral 	0.6818492087715553
+Italy	negative	0.5086219800994128
+Italy	positive	0.5862586170755886
+NA	negative	0.5772365498450924
+NA	negative	0.7199123339925927
+United States	positive	0.6664216279013613
+Mexico	positive	0.6438273873101792
+United States	negative	0.6276946157081262
+United States	negative	0.5982819894816869
+India	positive	0.5790263573436188
+Italy	negative	0.5182990778028599
+Italy	negative	0.5039559074679503
+Italy	positive	0.6438273873101792
+Italy	negative	0.5196062117200261
+Honduras	positive	0.7252651772109178
 NA	neutral 	0.5131223818839284
-Italy	neutral 	0.6593187823024892
-United States	negative	0.6795624580058963
-United States	negative	0.5072526153790939
-Canada	positive	0.6943653972741011
-Italy	negative	0.8188818187503528
-Italy	positive	0.6366872381526902
-United States	neutral 	0.6225255306610348
-United States	positive	0.7590378054259096
-Italy	negative	0.7329063818002315
-NA	neutral 	0.5719968524663739
-NA	neutral 	0.7260303153105521
-United States	neutral 	0.7307690694535207
-NA	neutral 	0.6595266408800805
-Netherlands	positive	0.5338178826746128
-United States	neutral 	0.7220380039240771
-Italy	negative	0.5441692985675595
-Italy	neutral 	0.7601358417608601
-United Kingdom	positive	0.5646785125839119
-NA	neutral 	0.598972572048698
-NA	neutral 	0.7123109148258616
-NA	neutral 	0.7170099035707294
-Italy	neutral 	0.5404114018812437
-United States	positive	0.6503911614164224
-Italy	negative	0.5704998614276847
-Italy	neutral 	0.9030867221420823
-Italy	negative	0.7892279930952883
-Italy	neutral 	0.5215928309446534
-Lebanon	neutral 	0.6841667459091211
-United States	neutral 	0.5924829437634724
-Libya	negative	0.5145808821498543
-United States	negative	0.7480206661536054
-United States	negative	0.5656545374568767
-Indonesia	neutral 	0.660986198876635
-United Kingdom	negative	0.8245865234595328
-United States	negative	0.5877176033716119
-United States	negative	0.5194274880938465
-Sweden	negative	0.5590292230912094
-United States	neutral 	0.7343963858854456
-United States	neutral 	0.6603179883323236
-Canada	negative	0.7449882831007147
-United States	neutral 	0.7870052193172405
-NA	neutral 	0.8359346056892315
-NA	positive	0.5021770255339235
-Italy	neutral 	0.5010080493236352
-Italy	negative	0.5172367816073908
-Italy	negative	0.5548990243816093
-Italy	positive	0.5083804482399131
-NA	neutral 	0.5131223818839284
-Italy	neutral 	0.7841966756155182
-Italy	neutral 	0.6914554634485485
-United States	positive	0.519817272895482
-United States	positive	0.6446219416749887
-United States	negative	0.6179646412663675
+United States	negative	0.5879523634668774
+NA	positive	0.5317889878832114
+United States	positive	0.5857370667936359
+Philippines	neutral 	0.6803914502787558
+Italy	positive	0.6438273873101792
+United Kingdom	positive	0.6485215665637324
+Italy	positive	0.6485215665637324
+United States	neutral 	0.843047951573995
+France	neutral 	0.7337438218838762
+Turkey	negative	0.7559948441022509
+Germany	positive	0.6179593369625084
+United States	negative	0.7110486148840628
+NA	negative	0.8426110668092377
+NA	neutral 	0.9490253060701285
+NA	negative	0.8261724459139312
+NA	negative	0.6803840681756126
+United States	positive	0.6438273873101792
+United States	negative	0.5507827106009033
+NA	negative	0.6118094913789507
+United States	positive	0.6805648311031016
+India	positive	0.6412727674501376
+Indonesia	positive	0.6438273873101792
+United States	negative	0.7476268638912975
+Peru	positive	0.6438273873101792
+Italy	positive	0.589634996448922
+Italy	positive	0.6438273873101792
+Italy	positive	0.6485215665637324
+United States	positive	0.5871364015091722
+United States	positive	0.531415808337205
+United Kingdom	neutral 	0.857607907771818
+United Kingdom	positive	0.6860774402249195
+United Kingdom	positive	0.560628323626028
+India	positive	0.6438273873101792
+United States	neutral 	0.6734797557044393
+Italy	neutral 	0.7006032212678103
+Italy	positive	0.6032267009837665
+United States	positive	0.6438273873101792
+India	positive	0.5921078700595732
+Canada	positive	0.6250451429586397
+United States	negative	0.6763013369460823
+United States	positive	0.6438273873101792
+Italy	positive	0.6438273873101792
+France	positive	0.6056963338624393
+United Kingdom	negative	0.6257912975242609
+Italy	neutral 	0.857607907771818
+Italy	positive	0.6438273873101792
+Italy	positive	0.5644683871484026
+NA	positive	0.6438273873101792
+United Kingdom	positive	0.6438273873101792
+India	negative	0.5062462336172603
+United States	negative	0.7339271004539063
+India	positive	0.6438273873101792
+Canada	positive	0.6438273873101792
+NA	positive	0.582618589616911
+United States	neutral 	0.5948409003924854
+United States	positive	0.6438273873101792
+United States	negative	0.7264547839889031
+United States	neutral 	0.857607907771818
+United States	neutral 	0.7070626189279482
+United States	negative	0.5413370477465576
+Italy	positive	0.6438273873101792
+France	positive	0.6438273873101792
